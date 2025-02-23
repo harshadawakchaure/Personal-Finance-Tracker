@@ -1,29 +1,8 @@
-# Personal-Finance-Tracker
-A simple Personal Finance Tracker that helps you manage your daily income and expenses effectively. It provides an interactive UI to add, track, and calculate total income, expenses, and remaining balance.
+# React + Vite
 
-# Features
-✔Add Daily Income & Expenses
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-✔ Categorize Expenses (Food, Rent, Travel, etc.)
+Currently, two official plugins are available:
 
-✔ View Transactions in a Table Format
-
-✔ Calculate Total Income, Expenses & Balance in Real-Time
-
-✔ Delete Transactions
-
-# Technologies Used
-HTML – Structure of the app
-
-CSS – Styling & layout
-
-JavaScript (script.js) – Dynamic interactions
-
-# How to Use
-Clone the Repository
-git clone https://github.com/harshadawakchaure/Personal-Finance-Tracker.git
-
-cd Personal-Finance-Tracker
-
-**Open** index.html in a browser.
-
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
