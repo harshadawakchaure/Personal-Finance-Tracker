@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>💰 Personal Finance Tracker</h1>
+
+        <!-- Daily Income Input -->
+        <div class="income-section">
+            <h2>📥 Enter Daily Income</h2>
+            <input type="number" id="income-input" placeholder="Enter your daily income">
+            <button id="add-income-btn">➕ Add Income</button>
+        </div>
+
+        <!-- Expenses Input -->
+        <div class="expense-section">
+            <h2>📉 Add Daily Expenses</h2>
+            
+            <label for="category">Category:</label>
+            <input type="text" id="category" placeholder="Enter expense category">
+            
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" placeholder="Enter amount">
+
+            <label for="date">Date:</label>
+            <input type="date" id="date">
+
+            <button id="add-expense-btn">➕ Add Expense</button>
+        </div>
+
+        <!-- Transactions List -->
+        <div class="expenses-list">
+            <h2>📊 Income & Expenses List</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>Category/Source</th>
+                        <th>Amount</th>
+                        <th>Date</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="transaction-table-body"></tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2"><strong>Total Income:</strong></td>
+                        <td id="total-income">0</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><strong>Total Expenses:</strong></td>
+                        <td id="total-expenses">0</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><strong>Remaining Balance:</strong></td>
+                        <td id="remaining-balance">0</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
